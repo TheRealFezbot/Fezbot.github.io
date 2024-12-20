@@ -1,0 +1,82 @@
+html {
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+    display: block;
+    margin: 8px
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: royalblue;
+}
+
+table {
+    display: table;
+    width: 650px;
+    margin: 0 auto;
+    border: 2px solid dodgerblue;
+    box-sizing: border-box;
+    border-spacing: 2px;
+}
+
+thead {
+    background-color: royalblue;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    border-color: inherit;
+    text-align: start;
+    border-spacing: 2px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-collapse: seperate;
+    text-align: start;
+    border-spacing: 2px;
+}
+
+td {
+    border-top: 1px solid royalblue;
+    vertical-align: inherit;
+    display: table-cell;
+
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
+
+button {
+    display: block;
+    padding-top: 50px;
+    align-self: center;
+}
