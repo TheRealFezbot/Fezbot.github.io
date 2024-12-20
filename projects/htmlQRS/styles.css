@@ -76,7 +76,7 @@ td {
 }
 
 a.button {
-    padding-top: 50px;
+    margin-top: 50px;
     border: 1px outset buttonborder;
     border-radius: 3px;
     color: buttontext;
