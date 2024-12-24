@@ -1,0 +1,116 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+#container {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+.lightblue {
+    background: #00beef
+}
+
+.lightgreen {
+    background: #00ef31;
+}
+
+.darkpink {
+    background: #ef00be;
+}
+
+.orange {
+    background: #ef3100;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.lexend-deca {
+    font-family: 'Lexend Deca', serif;
+}
+
+.orbitron {
+    font-family: 'Orbitron', serif;
+}
+
+.iceland {
+    font-family: 'Iceland', serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-style: bold;
+    font-weight: 900;
+}
+
+.italic {
+    font-style: italic;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item
+}
+
+.text-panel h1 {
+    font-weight: 900px;
+    font-size: 26px;
+    font-family: 'Lexend Deca', serif;
+    text-align: start;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Orbitron', serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Orbitron', serif;
+}
+
+a.button {
+    margin-top: 50px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+    align-self: center;
+}
